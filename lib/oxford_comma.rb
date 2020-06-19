@@ -5,9 +5,9 @@ def oxford_comma(array)
 #    array.insert (" and ")
 # end
 
- if array.length != array.length
-   array.insert (" and ")
- end
+
+array.insert (", ")
+
 array
 end
 
