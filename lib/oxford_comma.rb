@@ -2,17 +2,20 @@ def oxford_comma(array)
 
 if array.length == 1
    array.pop
-
-if array.length != array.length
-   array.join(", ")
- else
-   array.insert (" and ")
+end
+array
 end
 
-
-array.join(", ")
-
-end
+# if array.length != array.length
+#    array.join(", ")
+#  else
+#    array.insert (" and ")
+# end
+#
+#
+# array.join(", ")
+#
+# end
 
 # if arr.length > 2
 
