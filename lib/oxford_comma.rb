@@ -4,7 +4,7 @@ def oxford_comma(array)
  if array.length != array.length
    array << (" and ")
  end
-Array
+array
 end
 
 # if arr.length > 2
