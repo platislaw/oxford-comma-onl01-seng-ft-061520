@@ -1,7 +1,7 @@
 def oxford_comma(array)
 
 if array.length == 1
-   pop
+   array.pop
 
 if array.length != array.length
    array.join(", ")
