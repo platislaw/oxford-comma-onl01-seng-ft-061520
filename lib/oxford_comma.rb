@@ -4,6 +4,7 @@ def oxford_comma(array)
  array[-2] do
    array.insert (" and ")
  end
+ array
 end
 
 # if arr.length > 2
