@@ -5,13 +5,13 @@ if fruits.length == 1
 
 # two fruit with and
 elsif fruits.length == 2
-    fruit_string = array.join (" and ")
+    fruit_string = fruits.join (" and ")
 #["kiwi", "durian", "starfruit"] "kiwi, durian, and starfruit"
 # three or more fruits ,  with and
 elsif fruits.length >= 3
     last_fruit = fruits.pop
     fruit_with_comma = array.join (", ")
-    fruit_with_comma + " and "  + last_fruit 
+    fruit_with_comma + " and "  + last_fruit
 
 
     # three or more fruits ,  with and
