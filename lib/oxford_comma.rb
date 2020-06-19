@@ -6,7 +6,7 @@ def oxford_comma(array)
 # end
 
 
-array.insert (", ")
+array.join (", ")
 
 array
 end
