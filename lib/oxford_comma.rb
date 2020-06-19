@@ -3,7 +3,7 @@ def oxford_comma(array)
 if array.length == 1
    fruit = array.pop
 end
-array
+fruit
 end
 
 # if array.length != array.length
