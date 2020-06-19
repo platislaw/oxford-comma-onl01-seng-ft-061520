@@ -1,8 +1,10 @@
 def oxford_comma(array)
-if condition
-
+if array.length != array.length
+   array.join(", ")
+ else
+   array.insert (" and ")
 end
- array.join(", ")
+
 
 #  if array.length != array.length
 #    array.insert (" and ")
