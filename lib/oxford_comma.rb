@@ -1,6 +1,6 @@
-def oxford_comma(array)
+def oxford_comma(fruits)
 
-if array.length == 1
+if fruits.length == 1
    fruit = array.pop
 end
 fruit
