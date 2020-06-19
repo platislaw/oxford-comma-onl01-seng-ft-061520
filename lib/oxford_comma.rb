@@ -8,7 +8,6 @@ def oxford_comma(array)
 
 array.join(", ")
 
-array
 end
 
 # if arr.length > 2
