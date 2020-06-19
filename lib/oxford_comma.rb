@@ -1,10 +1,12 @@
 def oxford_comma(fruits)
 
 if fruits.length == 1
-   fruit = array.pop
+   fruit_string = array.pop
 end
-fruit
+fruit_string
 end
+
+
 
 # if array.length != array.length
 #    array.join(", ")
