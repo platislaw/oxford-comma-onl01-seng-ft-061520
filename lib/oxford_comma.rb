@@ -11,7 +11,7 @@ elsif fruits.length == 2
 elsif fruits.length >= 3
     last_fruit = fruits.pop
     fruit_with_comma = array.join (", ")
-    fruit_string = fruit_with_comma + " and "  + last_fruit
+    fruit_string = fruit_with_comma + ", and "  + last_fruit
 
 
     # three or more fruits ,  with and
