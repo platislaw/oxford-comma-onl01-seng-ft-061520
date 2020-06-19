@@ -10,7 +10,7 @@ elsif fruits.length == 2
 # three or more fruits ,  with and
 elsif fruits.length >= 3
     last_fruit = fruits.pop
-    fruit_with_comma = array.join (", ")
+    fruit_with_comma = fruits.join (", ")
     fruit_string = fruit_with_comma + ", and "  + last_fruit
 
 
